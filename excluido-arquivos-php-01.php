@@ -21,7 +21,7 @@ $arquivo = "teste.txt";
 if (!unlink($arquivo))
 {
     echo "Arquivo ==> " . $arquivo . "</br>";
-    echo (" Erro ao deletar o arquivo ==> $arquivo");
+    echo (" Erro ao deletar o arquivo, ele não existe ==> $arquivo");
 }
 else
 {
